@@ -79,3 +79,18 @@ margin-right: -2em;
   padding: 0.5em;
   margin-top: 2em;
 }
+
+@media (max-width:375px) {
+
+  .App-header {
+    width: 780px;
+  }
+
+  .App-Body {
+    display: flex;
+    flex-direction: column; 
+    margin-right: -25em;
+  }
+
+
+}
