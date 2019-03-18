@@ -2,32 +2,80 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 15em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 26px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-Body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skillset {
+  display: flex;
+  font-size: 26px;
+  width: 25em;
+  margin: 1em;
+  justify-content: center;
+}
+
+.projectSection {
+margin-left: 2em;
+margin-right: -2em;
+}
+
+.codingSection {
+  margin: 2em;
+  border-radius: 5px;
+  padding: 1em;
+  width: 20em;
+  color: white;
+  background-color: rgb(123, 160, 207);
+}
+
+.codeName {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+}
+
+.codeNameTitle {
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.codeName:hover {
+  font-weight: bold;
+}
+
+.contactinfo {
+  display: none;
+  margin-top: 2em;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  background-color: rgb(87, 143, 87);
+}
+
+
+.ContactButton {
+  border: solid, 1px, grey;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 0.5em;
+  margin-top: 2em;
 }
