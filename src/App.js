@@ -30,6 +30,7 @@ ShowMe = () => {
             <p className="skillset"> HTML, CSS, JavaScript, ReactJS, AngularJS, VueJS, Flexbox, Git, .NET, C#, SQL, VisualStudio, Trello, ChromeCast,
                Crystal Reports, myAvatar by Netsmart Solutions, GitHub, GitLab, Communication, Team-Building, Problem-Solving, Social Media, Networking, Ability to 
                Take Feedback, Desire to Learn, CPR Certified</p>
+               <h3 className="ResumeGoogle">View a Hardcopy of my Resume <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing">Here</a></h3>
                <button onClick={this.ShowMe} className="ContactButton"> Contact Me </button>
           <section id="contactInfo" className="contactinfo">
           <h1>Email: <a href="mailto:alexiskjg16@gmail.com" className="codeName">alexiskjg16@gmail.com</a></h1>
