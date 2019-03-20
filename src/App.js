@@ -72,7 +72,7 @@ ShowMe = () => {
           <a href="https://www.instagram.com/alexiskjg16/?hl=en" target="_blank" rel="noopener noreferrer" className="socialLink">Instagram</a>
           </section>
      <footer>
-       <h6> Property of AKG 2019</h6>
+       <h6 className="Footer"> Property of AKG 2019</h6>
      </footer>
       </div>
     )
