@@ -80,6 +80,19 @@ margin-right: -2em;
   margin-top: 2em;
 }
 
+.socialLink {
+   padding: 1em;
+   font-size: 20px;
+}
+
+.basis {
+  background-color: tan;
+  padding-bottom: 2em;
+  width: 30em;
+  border-radius: 5px;
+  margin-left: 30em;
+}
+
 @media (max-width:375px) {
 
   .App-header {
@@ -92,5 +105,7 @@ margin-right: -2em;
     margin-right: -25em;
   }
 
-
+  .basis{
+    margin-left: 10em;
+  }
 }

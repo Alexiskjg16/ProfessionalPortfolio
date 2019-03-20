@@ -38,7 +38,7 @@ ShowMe = () => {
           </section>  
           </section>
           <section className="projectSection">
-            <h1>View the projects</h1>
+            <h1>View the projects:</h1>
                      <section className="codingSection"> 
                      <a href="http://tbdvsupport.surge.sh/" target="_blank" rel="noopener noreferrer" className="codeNameTitle">Capstone - TBDVSupport </a>
                      <p>React JS with C#</p>
@@ -64,14 +64,18 @@ ShowMe = () => {
                      <p> Angular JS with APIs</p>
                      <a href="https://github.com/Alexiskjg16/ngtacos" target="_blank" rel="noopener noreferrer" className="codeName">Code: Github</a>
                      </section>
-                     <section className="codingSection">
-                     <a href="https://github.com/Alexiskjg16/ProfessionalPortfolio" targegt="_blank" rel="noopener noreferrer" className="codeName">Code: The Repo for this page!</a>
-                     <p> React JS</p>
-                     </section>
           </section>
         </section>
+        <section className="basis">
+         <h2 className="socialLink">Social Media: </h2>
+          <a href="https://twitter.com/Alexiskjg16" target="_blank" rel="noopener noreferrer" className="socialLink">Twitter</a>
+          <a href="https://www.instagram.com/alexiskjg16/?hl=en" target="_blank" rel="noopener noreferrer" className="socialLink">Instagram</a>
+          </section>
+     <footer>
+       <h6> Property of AKG 2019</h6>
+     </footer>
       </div>
-    );
+    )
   }
 }
 
