@@ -8,11 +8,22 @@
   height: 15em;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 26px;
+  font-size: 28px;
   color: white;
+}
+
+.firstimage {
+  width: 49.1%;
+}
+.selfimage {
+  width: 20%;
+}
+
+.smallerimg{
+ width: 26.7%;
 }
 
 .App-Body {
@@ -63,9 +74,10 @@ margin-right: -2em;
 }
 
 .contactinfo {
-  display: none;
-  margin-top: 2em;
-  font-size: 20px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  font-size: 15px;
   border-radius: 5px;
   padding: 1em;
   color: white;
@@ -73,17 +85,10 @@ margin-right: -2em;
 }
 
 
-.ContactButton {
-  border: solid, 1px, grey;
-  border-radius: 5px;
-  font-size: 22px;
-  padding: 0.5em;
-  margin-top: 2em;
-}
-
 .socialLink {
    padding: 1em;
    font-size: 20px;
+   margin-top: 2em;
 }
 
 .basis {
@@ -91,7 +96,7 @@ margin-right: -2em;
   padding-bottom: 2em;
   width: 30em;
   border-radius: 5px;
-  margin-left: 30em;
+  margin-left: 10em;
 }
 
 @media (max-width:720px) {
@@ -124,7 +129,12 @@ margin-right: -2em;
     margin-left: 7em;
   }
 
+  .contactinfo {
+    width: 45em;
+  }
+
   .Footer {
-    margin-left: 20em;
+    margin-left: 25em;
+    width: 15em;
   }
 }

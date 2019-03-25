@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Codewars from './Pics/Codewars.png';
+import codingimages from './Pics/codingimages.jpg';
+import selfie from './Pics/selfie.jpg';
 
 
 
 
 class App extends Component {
   
-ShowMe = () => {
-    var x = document.getElementById("contactInfo");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+// ShowMe = () => {
+//     var x = document.getElementById("contactInfo");
+//     if (x.style.display === "none") {
+//       x.style.display = "block";
+//     } else {
+//       x.style.display = "none";
+//     }
 
-  }
+//   }
 
 
   render() {
@@ -26,17 +28,19 @@ ShowMe = () => {
         </header>
         <section className="App-Body">
           <section>
+          {/* <img src={Codewars} className="firstimage" />
+          <img src={selfie} className="selfimage" />
+          <img src={codingimages} className="smallerimg" /> */}
             <h1>Skills</h1>
-            <p className="skillset"> HTML, CSS, JavaScript, ReactJS, AngularJS, VueJS, Flexbox, Git, .NET, C#, SQL, VisualStudio, Trello, ChromeCast,
-               Crystal Reports, myAvatar by Netsmart Solutions, GitHub, GitLab, Communication, Team-Building, Problem-Solving, Social Media, Networking, Ability to 
-               Take Feedback, Desire to Learn, CPR Certified</p>
+            <p className="skillset"> HTML, CSS, JavaScript, ReactJS,  Flexbox, SQL, Visual Studio Code, GitHub, API, Communication,
+             Team-Building, Problem-Solving, Networking, Ability to Take Feedback, Desire to Learn, CPR Certified</p>
+               <p className="skillset">AngularJS, VueJS, Git, GitLab, .NET, C#, Crystal Reports, myAvatar by Netsmart Solutions</p>
                <h3 className="ResumeGoogle">View a Hardcopy of my Resume <a href="https://docs.google.com/document/d/1QHyYafwxBO0fHsynWl4Ldh1bKnv_F4vlRQoGpyPEdlA/edit?usp=sharing">Here</a></h3>
-               <button onClick={this.ShowMe} className="ContactButton"> Contact Me </button>
-          <section id="contactInfo" className="contactinfo">
-          <h1>Email: <a href="mailto:alexiskjg16@gmail.com" className="codeName">alexiskjg16@gmail.com</a></h1>
-          <h1>Phone: <a href="tel:9413047266" className="codeName">941.304.7266</a></h1>
-          <h1>LinkedIn: <a href="https://www.linkedin.com/in/alexis-grisham-434401169/" target="_blank" rel="noopener noreferrer" className="codeName">AlexisGrisham</a></h1>
-          </section>  
+               <section className="basis">
+         <h2 className="socialLink">Social Media: </h2>
+          <a href="https://twitter.com/Alexiskjg16" target="_blank" rel="noopener noreferrer" className="socialLink">Twitter</a>
+          <a href="https://www.instagram.com/alexiskjg16/?hl=en" target="_blank" rel="noopener noreferrer" className="socialLink">Instagram</a>
+          </section>
           </section>
           <section className="projectSection">
             <h1>View the projects:</h1>
@@ -65,16 +69,16 @@ ShowMe = () => {
                      <p> Angular JS with APIs</p>
                      <a href="https://github.com/Alexiskjg16/ngtacos" target="_blank" rel="noopener noreferrer" className="codeName">Code: Github</a>
                      </section>
-          </section>
-        </section>
-        <section className="basis">
-         <h2 className="socialLink">Social Media: </h2>
-          <a href="https://twitter.com/Alexiskjg16" target="_blank" rel="noopener noreferrer" className="socialLink">Twitter</a>
-          <a href="https://www.instagram.com/alexiskjg16/?hl=en" target="_blank" rel="noopener noreferrer" className="socialLink">Instagram</a>
-          </section>
-     <footer>
-       <h6 className="Footer"> Property of AKG 2019</h6>
-     </footer>
+                     </section>
+                    </section>
+              <footer> 
+                  <section id="contactInfo" className="contactinfo">
+                    <h1>Email: <a href="mailto:alexiskjg16@gmail.com" className="codeName">alexiskjg16@gmail.com</a></h1>
+                    <h1>Phone: <a href="tel:9413047266" className="codeName">941.304.7266</a></h1>
+                    <h1>LinkedIn: <a href="https://www.linkedin.com/in/alexis-grisham-434401169/" target="_blank" rel="noopener noreferrer" className="codeName">AlexisGrisham</a></h1>
+                  </section>  
+                     <h6 className="Footer"> Property of AKG 2019</h6>
+               </footer>
       </div>
     )
   }
